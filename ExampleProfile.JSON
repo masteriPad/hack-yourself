@@ -1,0 +1,25 @@
+{ "app": [
+    {"facebook":    
+        {   
+            "userInfo": {
+                "name": "Areeba Khan",
+                "bod": "10/20/1998",
+                "school": "xyz",
+                "gender": "female",
+                "phone": "614-445-9909"
+            },
+            "photos" :[
+                { "photoTag": "dog", "caption": "I love my dog, Toby!" },
+                { "photoTag": "pasta", "caption": "Best place is in my hometown of northfield!" }
+            ],
+            "status": [
+                { "caption": "Omg can you believe these people were wearing HOT pink in winter. Honey purple is the way to go. Purple goes all year round!" },
+                { "caption": "Just dropped $500 on purple gucci flipflops." }
+            ]
+        } 
+    },
+
+    {"linkedin" : {}},
+
+    {"instagram": {}}
+]}
