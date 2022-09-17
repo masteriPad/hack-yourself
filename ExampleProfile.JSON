@@ -1,19 +1,45 @@
-{"facebook":    
-    {   
-        "userInfo": {
-            "name": "Areeba Khan",
-            "dob": "10/20/1998",
-            "school": "xyz",
-            "gender": "female",
-            "phone": "614-445-9909"
-        },
-        "photos" :[
-            { "photoTag": "dog", "caption": "I love my dog, Toby!" },
-            { "photoTag": "pasta", "caption": "Best place is in my hometown of northfield!" }
-        ],
-        "status": [
-            { "caption": "Omg can you believe these people were wearing HOT pink in winter. Honey purple is the way to go. Purple goes all year round!" },
-            { "caption": "Just dropped $500 on purple gucci flipflops." }
-        ]
-    } 
-}
+{ "app": [
+    {"facebook":    
+        {   
+            "userInfo": {
+                "name": "Caelia Romano",
+                "dob": "9/27/1996",
+                "phone": "202-555-0141",
+                "password": "autumnlatte27",
+                "email": "marzipanetteria@gmail.com",
+                "company": "Marzipan Panetteria",
+                "company_position": "Owner and CEO",
+                "hometown": "Palermo, Italy",
+                "relationship": "Single",
+                "current_city": "Los Angeles",
+                "school": "North Park High school",
+                "gender": "female",
+            },
+            "photos" :[
+                { "photoTag": "city", "caption": "No place like the city of angels" },
+                { "photoTag": "fall", "caption": "My favorite autumn activity has gotta be long sunset walks with a good ol' latte" },
+                { "photoTag": "regular", "caption": "My go to? Pumpkin spice latte with extra whipped cream :D" },
+                { "photoTag": "starbucks", "caption": "Starbucks is a guilty pleasure" },
+                { "photoTag": "autumn", "caption": "If you couldn't tell, autumn is my favorite season" },
+                { "photoTag": "birthday", "caption": "Birthday in 10 days on september 27! Everyone's invited :)" },
+                { "photoTag": "park", "caption": "Nothing says autumn quite like a latte in the park" },
+                { "photoTag": "coffee", "caption": "Someone stop me I'm addicted" },
+                { "photoTag": "cafe", "caption": "Another day, another latte" },
+                { "photoTag": "dog", "caption": "Please meet my lovely dog, Latte!" },
+                { "photoTag": "grandma", "caption": "Visiting my sicilian nonna Russo!" },
+                { "photoTag": "pasta", "caption": "How cacio e pepe should be made!" },
+                { "photoTag": "pumpkin spice", "caption": "Pumpkin spice latte to celebrate the arrival of autumn!" }
+            ],
+            "status": [
+                { "caption": "If I was born in 1996 that makes me a millenial and not genz, right?" }
+                { "caption": "The cafe is now offering cannoli! It's been a long time coming, I know :)" }
+                { "caption": "Omg can you believe these people were wearing HOT pink in winter. Honey purple is the way to go. Purple goes all year round!" },
+                { "caption": "Just dropped $500 on purple gucci flipflops." }
+            ]
+        } 
+    },
+
+    {"linkedin" : {}},
+
+    {"instagram": {}}
+]}
