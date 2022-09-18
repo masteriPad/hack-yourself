@@ -21,6 +21,10 @@ For example, Taking the profile below;
 Information like Romano's name and hometown as data points are used by the program to find out those similarities(password and data point from profile). It usually happens that users tend to use key words like names of loved ones, or a favourite colour as a password and this information sometimes is public hence putting them at risk. 
 If Romano's favourite colour was purple and it either shows up on her facebook profile or anywhere else on a public profile, it wouldn't be difficult to figure this out from her profile increasing her likelihood of getting hacked. This is because computers have the capacity to generate billions of combinations of passwords and its a matter of trying several before there's a match to an insecure password.
 
+Here's a gif that would have appeared during loading
+
+![walking](https://github.com/aReebok/hack-yourself/blob/abbe5f396d6f2a301f2f740f60697ebd33feed93/src/images/walking.gif)
+
 
 
 
