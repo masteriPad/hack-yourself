@@ -13,7 +13,7 @@
                 "relationship": "Single",
                 "current_city": "Los Angeles",
                 "school": "North Park High school",
-                "gender": "female",
+                "gender": "female"
             },
             "photos" :[
                 { "photoTag": "city", "caption": "No place like the city of angels" },
@@ -31,8 +31,8 @@
                 { "photoTag": "pumpkin spice", "caption": "Pumpkin spice latte to celebrate the arrival of autumn!" }
             ],
             "status": [
-                { "caption": "If I was born in 1996 that makes me a millenial and not genz, right?" }
-                { "caption": "The cafe is now offering cannoli! It's been a long time coming, I know :)" }
+                { "caption": "If I was born in 1996 that makes me a millenial and not genz, right?" },
+                { "caption": "The cafe is now offering cannoli! It's been a long time coming, I know :)" },
                 { "caption": "Omg can you believe these people were wearing HOT pink in winter. Honey purple is the way to go. Purple goes all year round!" },
                 { "caption": "Just dropped $500 on purple gucci flipflops." }
             ]
