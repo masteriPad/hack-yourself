@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <Title>Hack.edu</Title>
+        <style>
+            html, body {
+            margin: 0;
+            padding: 0;
+            }  
+
+            body {
+                font-size: 100%;
+                font-family: sans-serif; }
+            div, section, span, ul, li, a, header { 
+                box-sizing:  border-box; 
+            } 
+            /*css reset*/
+            header {
+                width: 100%;
+                display: flex;
+                justify-content: space-between; 
+                padding: 20px 50px; 
+                align-items: center;
+                position: fixed;
+                z-index: 999;
+            }
+
+
+            #menu li {
+                list-style: none;
+                display: inline-block;
+                margin: 20px;
+            }
+
+            #menu li a{
+                color: #000;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+            }
+
+            section {
+                width: 100%;
+                height: 100vh;
+                float: left;
+                position:relative;
+            }
+
+            #home {
+                background-color: #224d90;
+            }
+
+            #about{
+                background-color: #ED6663;
+            }
+
+            h1{
+                position:absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+            }
+
+            input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: none;
+                background-color: #000;
+                color: white;
+                border-bottom: 2px solid black;
+            }
+            .container-fluid {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                }
+
+        </style>
+    </head>
+    <body>
+        <section id = "home">
+            <header>
+                <a href="#"> <img src="src/images/HYSLogo.png" width="125" height="125" alt="Hack Yourself Logo"> </a>
+
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                
+            </header>
+            <body>
+                
+                <h1>Is 
+                    <div>
+                        <input type="text" id="name" name="name" required
+                        minlength="20" maxlength="20" size="20"> <button onclick="myFunction()">try</button>
+                    </div>
+
+                    secure? </h1> 
+                    
+                     </body>
+
+            
+        </section>
+        <section id = "about">
+            <div>
+                <h1>
+                    We're team Hack.edu
+                </h1>
+            </div>
+        </section>
+    </body>
+
+</html>
