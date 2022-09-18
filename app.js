@@ -125,6 +125,7 @@ async function testPassword (pswd, data) {
     const bank = await countWords(data);
     var pass = pswd.toLowerCase().toString();    
     var matches = 0;
+    var matchesTotalLen = 0;
 
     const matchedWords = [];
     let currentWordMatch = '';
@@ -141,14 +142,17 @@ async function testPassword (pswd, data) {
                 continue;
             } else {
                 let currentWordMatchCount = bank.get(currentWordMatch).count;
-                matches += bank.get(currentWordMatch);
+                matches += currentWordMatchCount;
+                matchesTotalLen += currentWordMatch.length;
                 matchedWords.push(bank.get(currentWordMatch));
             }
         }
         currentWordMatch = '';
     }    
-    // console.log(matches);
+    console.log("Total matches occurances: " + matches);
+    console.log("Total match %: " + (matchesTotalLen / pswd.length)*100 + "%");
     console.log(matchedWords);
+
 }
 
-testPassword("latte1996", data);
+testPassword("latte19960", data);

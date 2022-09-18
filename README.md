@@ -1,2 +1,4 @@
-# hack-yourself
-Hack The Gap September Hackathon: participants - Victoria, Celia, Tyga, Areeba.
+# Hack Yourself!
+## by Areeba Khan, Victoria Nguyen, Celia Olson, Tyga P
+
+This is a proj for learning exp for cyper stuff
