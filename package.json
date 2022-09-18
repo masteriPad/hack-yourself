@@ -1,0 +1,23 @@
+{
+  "name": "hack-yourself",
+  "version": "1.0.0",
+  "description": "Hack The Gap September Hackathon: participants - Victoria, Celia, Tyga, Areeba.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aReebok/hack-yourself.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aReebok/hack-yourself/issues"
+  },
+  "homepage": "https://github.com/aReebok/hack-yourself#readme",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
+}
